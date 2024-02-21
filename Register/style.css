@@ -1,0 +1,90 @@
+@font-face {
+    font-family: up;
+    src: url(./Vollkorn-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(61 103 211);
+}
+#frame{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 7px 60px rgb(20, 16, 16);
+    border-radius: 36px;
+    border: 2px solid rgb(218, 195, 46);
+}
+#frame>#leftside{
+    height: 100%;
+    width: 48%;
+    background-image: url(./loginwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode:saturation;
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+}
+#formore{
+    text-align: center;
+    padding: 45% 0px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    word-wrap: break-word;
+}
+#frame>#inp{
+    height: 100%;
+    width: 100%;
+    background-color: #dcd3f2;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+#inp form {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    font-family: up;
+    
+}
+#inp label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'up', sans-serif; 
+}
+#inp input {
+    width: 50%;
+    padding: 8px;
+    font-size: 18px; 
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-color:hotpink;
+}
+#inp input[type="submit"] {
+    margin-top: 15px;
+    padding: 4px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    width: 10vw;
+}
+
